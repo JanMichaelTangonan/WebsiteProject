@@ -1,54 +1,12 @@
-<style>
-img{
-  width:100%;
+body{
+background-color: powderblue;
 }
 
 h1{
  font-size: 2em;
  color:blue;
- background-color: black;
-
+ background-color: yellow;
 }
-</style>
-
-
-/*Test*/
-<style>
 p{
-color:#fcfdff;
+color: red;
 }
-
-h1{
-  color:#fcfdff;
-}
-h2{
-  color:#fcfdff;
-}
-body{
-  background-color:#161617;
-}
-.smaller-image{
-  width: 1000px;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-/*Test code*/
-</style>
-/*Test*/
