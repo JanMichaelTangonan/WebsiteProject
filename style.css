@@ -1,12 +1,28 @@
+h2{
+padding: 10px 30px 10px 30px;
+color: red;
+background-color: black;
+font-family: monospace;
+font-size: 2em;
+}
+nav{
+padding:10px 10px 10px 10px;
+color:red;
+background-color: black;
+font-family: inherit;
+font-size: 1em;
+}
 body{
 background-color: powderblue;
 }
 
 h1{
- font-size: 2em;
- color:blue;
- background-color: yellow;
+ padding: 10px 10px 10px 10px;
+ color:red;
+ background-color: black;
+ font-size: 3em;
 }
 p{
 color: red;
+font-family: sans-serif;
 }
