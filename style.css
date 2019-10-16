@@ -4,6 +4,7 @@ color: white;
 background-color: black;
 font-family: monospace;
 font-size: 2em;
+border: 30px ridge;
 }
 nav{
 padding:1px 1px 1px 1px;
@@ -11,9 +12,10 @@ color:red;
 background-color: black;
 font-family: inherit;
 font-size: 1.25em;
+border: 20px ridge
 }
 body{
-background-color: #0914e0;
+background-color: powderblue;
 }
 
 h1{
@@ -21,9 +23,10 @@ h1{
  color:white;
  background-color: black;
  font-size: 3em;
+ font-family: monospace;
 }
 p{
-color: white;
+color: black;
 font-family: sans-serif;
 font-size: 1.25em;
 }
