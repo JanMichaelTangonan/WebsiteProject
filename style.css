@@ -30,6 +30,11 @@ font-size: 1.25em;
 /*Website design [end]*/
 
 /* mainNavigation design [start] */
+.navigationDesign{
+display: grid;
+
+}
+
 #mainNavigation{
 color:blue;
 background-color: green;
@@ -64,6 +69,12 @@ color: yellow;
 .linkColors a:hover{
 color: blue;
 background-color: white;
+}
+
+.linkDesigns{
+border: 20px inset;
+background-color: black;
+border-color: blue;
 }
 /*Link stuff [end] */
 
