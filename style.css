@@ -101,3 +101,106 @@ margin-right: auto;
   box-shadow: 10px 5px;
 }
 /* Image test [end] */
+
+/*gridImage [start]*/
+.imageGrid{
+  display:grid;
+  height: 100vh;
+  width: 100vw;
+  grid-template-areas:
+  'ballImage1 ballImage2'
+  'ballImage3 ballImage4'
+  'ballImage5 ballImage6'
+  'ballImage7 ballImage8'
+  'ballImage9 ballImage10'
+  'ballImage11 .'
+  ;
+}
+
+.ballImage1{
+  grid-area:ballImage1;
+}
+.ballImage2{
+    grid-area:ballImage2;
+}
+.ballImage3{
+    grid-area:ballImage3;
+}
+.ballImage4{
+    grid-area:ballImage4;
+}
+.ballImage5{
+    grid-area:ballImage5;
+}
+.ballImage6{
+    grid-area:ballImage6;
+}
+.ballImage7{
+    grid-area:ballImage7;
+}
+.ballImage8{
+    grid-area:ballImage8;
+}
+.ballImage9{
+    grid-area:ballImage9;
+}
+.ballImage10{
+    grid-area:ballImage10;
+}
+.ballImage11{
+    grid-area:ballImage11;
+}
+/*gridImage [end]*/
+
+/*navigationGrid [start]*/
+.navigationWrapper{
+  display: grid;
+  height: 25vh;
+  weight: 25vw;
+  grid-template-areas:
+'intro intro intro'
+'examples examples examples '
+'software software software'
+'animations animations animations'
+  ;
+}
+
+.intro{
+  grid-area:intro;
+}
+.examples{
+  grid-area:examples;
+}
+.software{
+  grid-area:software;
+}
+.animations{
+  grid-area:animations;
+}
+
+/*navigationGrid [end]*/
+
+/* navigationGrid2 [start]*/
+.navigationWrapper2{
+  display: grid;
+  height: 25vh;
+  weight: 25vw;
+  grid-template-areas:
+'intro2 intro2 examples2 examples2'
+'software2 software2 animation2 animation2'
+  ;
+}
+
+.intro2{
+  grid-area:intro2;
+}
+.examples2{
+  grid-area:examples2;
+}
+.software2{
+  grid-area:software2;
+}
+.animations2{
+  grid-area:animations2;
+}
+/*navigationGrid2 [end] */
