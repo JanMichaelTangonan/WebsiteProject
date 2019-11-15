@@ -155,8 +155,7 @@ margin-right: auto;
 /*navigationGrid [start]*/
 .navigationWrapper{
   display: grid;
-  height: 25vh;
-  weight: 25vw;
+font-weight:bold;
   grid-template-areas:
 'intro intro intro'
 'examples examples examples '
@@ -183,8 +182,7 @@ margin-right: auto;
 /* navigationGrid2 [start]*/
 .navigationWrapper2{
   display: grid;
-  height: 25vh;
-  weight: 25vw;
+font-weight:bold;
   grid-template-areas:
 'intro2 intro2 examples2 examples2'
 'software2 software2 animation2 animation2'
