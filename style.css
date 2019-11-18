@@ -108,12 +108,12 @@ margin-right: auto;
   height: 100vh;
   width: 100vw;
   grid-template-areas:
-  'ballImage1 ballImage2'
-  'ballImage3 ballImage4'
-  'ballImage5 ballImage6'
-  'ballImage7 ballImage8'
-  'ballImage9 ballImage10'
-  'ballImage11 .'
+  'ballImage1 ballImage1 ballImage1 ballImage2 ballImage2 ballImage2'
+  'ballImage3 ballImage3 ballImage3 ballImage4 ballImage4 ballImage4'
+  'ballImage5 ballImage5 ballImage5 ballImage6 ballImage6 ballImage6'
+  'ballImage7 ballImage7 ballImage7 ballImage8 ballImage8 ballImage8'
+  'ballImage9 ballImage9 ballImage9 ballImage10 ballImage10 ballImage10'
+  'ballImage11 ballImage11 ballImage11 . . .'
   ;
 }
 
