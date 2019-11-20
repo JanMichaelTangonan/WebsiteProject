@@ -7,7 +7,9 @@ font-family: monospace;
 font-size: 2em;
 border: 30px ridge;
 border-color: blue;
+font-family: 'Overpass', sans-serif;
 }
+
 body{
 background:green;
 }
@@ -20,12 +22,14 @@ h1{
  font-family: monospace;
  border: 30px double;
  border-color: blue;
+ font-family: 'Rubik', sans-serif;
 }
 
 p{
 color: black;
 font-family: sans-serif;
 font-size: 1.25em;
+font-family: 'Alata', sans-serif;
 }
 /*Website design [end]*/
 
@@ -43,6 +47,7 @@ font-size: 1.25em;
 border: 20px ridge;
 border-color: blue;
 margin:5px;
+font-family: 'Vollkorn', serif;
 }
 
 #mainNavigation a:hover{
@@ -115,6 +120,9 @@ margin-right: auto;
   'ballImage9 ballImage9 ballImage9 ballImage10 ballImage10 ballImage10'
   'ballImage11 ballImage11 ballImage11 . . .'
   ;
+  grid-template-columns:50px;
+  grid-template-rows:50px;
+  grid-gap: 50px 30px
 }
 
 .ballImage1{
@@ -180,14 +188,15 @@ font-weight:bold;
 /*navigationGrid [end]*/
 
 /* navigationGrid2 [start]*/
-.navigationWrapper2{
-  display: grid;
-font-weight:bold;
-  grid-template-areas:
-'intro2 intro2 examples2 examples2'
-'software2 software2 animation2 animation2'
-  ;
-}
+  .navigationWrapper2{
+    display: grid;
+  font-weight:bold;
+  grid-template-columns: 50px;
+  grid-template-rows: 50px;
+    grid-template-areas:
+  'intro2 intro2 examples2 examples2'
+  'software2 software2 animation2 animation2';
+  }
 
 .intro2{
   grid-area:intro2;
