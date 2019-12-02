@@ -10,6 +10,10 @@ border-color: blue;
 font-family: 'Overpass', sans-serif;
 }
 
+ul{
+  padding-left: 0;
+}
+
 body{
 background:green;
 }
@@ -46,7 +50,6 @@ font-family: inherit;
 font-size: 1.25em;
 border: 20px ridge;
 border-color: blue;
-margin:5px;
 font-family: 'Vollkorn', serif;
 }
 
@@ -62,7 +65,7 @@ color:yellow;
 #mainNavigation li {
 display:inline-block;
 color: red;
-border: 3px outset;
+border: 5px outset;
 }
 /* mainNavigation design [end] */
 
@@ -162,11 +165,11 @@ margin-right: auto;
 
 /*navigationGrid [start]*/
 .navigationWrapper{
-  display: grid;
+display: grid;
 font-weight:bold;
-  grid-template-areas:
+grid-template-areas:
 'intro intro intro'
-'examples examples examples '
+'examples examples examples'
 'software software software'
 'animations animations animations'
   ;
@@ -186,28 +189,3 @@ font-weight:bold;
 }
 
 /*navigationGrid [end]*/
-
-/* navigationGrid2 [start]*/
-  .navigationWrapper2{
-    display: grid;
-  font-weight:bold;
-  grid-template-columns: 50px;
-  grid-template-rows: 50px;
-    grid-template-areas:
-  'intro2 intro2 examples2 examples2'
-  'software2 software2 animation2 animation2';
-  }
-
-.intro2{
-  grid-area:intro2;
-}
-.examples2{
-  grid-area:examples2;
-}
-.software2{
-  grid-area:software2;
-}
-.animations2{
-  grid-area:animations2;
-}
-/*navigationGrid2 [end] */
