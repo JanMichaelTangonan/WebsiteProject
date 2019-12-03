@@ -18,6 +18,26 @@ body{
 background:green;
 }
 
+/* Page 2 */
+.examplesPageBodyColor{
+background:#3FB70B;
+}
+
+.examplesPageNavigationColors{
+  border-color:#4E4E61;
+}
+/* Page 2 */
+
+/* Page 4 */
+.animationsPageBodyColor{
+background:#3FB70B;
+}
+
+.animationsPageNavigationColors{
+  border-color:#FE0808;
+}
+/* Page 4 */
+
 h1{
  padding: 10px;
  color:white;
@@ -76,7 +96,7 @@ color: yellow;
 
 .linkColors a:hover{
 color: yellow;
-background-color: white;
+background-color: black;
 }
 
 .linkDesigns{
@@ -113,12 +133,12 @@ margin-right: auto;
 /*FlexBoxforImagesPage1 [start]*/
 .row1Images{
 display:flex;
-justify-content:center;  
+justify-content:center;
 }
 
 .row2Images{
 display:flex;
-justify-content:space-between;  
+justify-content:space-between;
 }
 
 .row3Images{
