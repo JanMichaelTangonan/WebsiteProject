@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Alata|Overpass|Rubik|Vollkorn&display=swap');
+
 /*Website design [start]*/
 h2{
 padding: 10px 30px 10px 30px;
 color: white;
 background-color: black;
 font-family: monospace;
-font-size: 2em;
+font-size: 2vw;
 border: 30px ridge;
 border-color: blue;
 font-family: 'Overpass', sans-serif;
@@ -28,7 +30,7 @@ background:#3FB70B;
 }
 /* Page 2 */
 
-/* Page 4 */
+/* Page 4 [start]*/
 .animationsPageBodyColor{
 background:#3FB70B;
 }
@@ -36,13 +38,13 @@ background:#3FB70B;
 .animationsPageNavigationColors{
   border-color:#FE0808;
 }
-/* Page 4 */
+/* Page 4 [End]*/
 
 h1{
  padding: 10px;
  color:white;
  background-color: black;
- font-size: 3em;
+ font-size: 3vw;
  font-family: monospace;
  border: 30px double;
  border-color: blue;
@@ -52,7 +54,7 @@ h1{
 p{
 color: black;
 font-family: sans-serif;
-font-size: 1.25em;
+font-size: 1.25vw;
 font-family: 'Alata', sans-serif;
 }
 /*Website design [end]*/
@@ -64,10 +66,8 @@ display: grid;
 }
 
 #mainNavigation{
-color:yellow;
 background-color: green;
-font-family: inherit;
-font-size: 1.25em;
+font-size: 1.25vw;
 border: 20px ridge;
 border-color: blue;
 font-family: 'Vollkorn', serif;
@@ -84,7 +84,7 @@ color:yellow;
 
 #mainNavigation li {
 display:inline-block;
-color: red;
+border-color:red;
 border: 5px outset;
 }
 /* mainNavigation design [end] */
@@ -169,11 +169,11 @@ justify-content:space-between;
 display: grid;
 font-weight:bold;
 grid-template-areas:
-'intro intro intro'
-'examples examples examples'
-'software software software'
-'animations animations animations'
-  ;
+    'intro intro intro'
+    'examples examples examples'
+    'software software software'
+    'animations animations animations'
+    ;
 }
 
 .intro{
