@@ -44,7 +44,7 @@ h1{
  padding: 10px;
  color:white;
  background-color: black;
- font-size: 3em;
+ font-size:3em;
  font-family: monospace;
  border: 30px double;
  border-color: blue;
@@ -95,7 +95,6 @@ border: 5px red outset;
 /* Link stuff [start]*/
 .linkColors a:link{
 color: yellow;
-background-color: black;
 }
 
 .linkColors a:visited{
@@ -133,7 +132,6 @@ margin-right: auto;
 .boxShadowTest{
   border: 6px ridge;
   border-color: red;
-  padding: 1px;
   box-shadow: 10px 5px;
 }
 /* Image test [end] */
@@ -196,5 +194,4 @@ grid-template-areas:
 .animations{
   grid-area:animations;
 }
-
 /*navigationGrid [end]*/
