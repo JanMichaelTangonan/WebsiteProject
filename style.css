@@ -90,6 +90,8 @@ color:yellow;
 display:inline-block;
 border: 5px red outset;
 }
+
+/* #mainNavigationButtons  */
 /* mainNavigation design [end] */
 
 /* Link stuff [start]*/
@@ -195,3 +197,11 @@ grid-template-areas:
   grid-area:animations;
 }
 /*navigationGrid [end]*/
+
+@media screen and (max-width: 600px) {
+  h1{
+   padding: 5px;
+   font-size:1.5em;
+
+  }
+}
