@@ -24,19 +24,11 @@ background:green;
 .examplesPageBodyColor{
 background:#3FB70B;
 }
-
-.examplesPageNavigationColors{
-  border-color:#4E4E61;
-}
 /* Page 2 */
 
 /* Page 4 [start]*/
 .animationsPageBodyColor{
 background:#3FB70B;
-}
-
-.animationsPageNavigationColors{
-  border-color:#FE0808;
 }
 /* Page 4 [End]*/
 
@@ -65,8 +57,8 @@ display: grid;
 
 }
 
-#mainNavigation{
-background-color: green;
+#mainNavigation button{
+background-color: #000080;
 font-size: 1em;
 border: 20px ridge;
 border-color: blue;
@@ -86,10 +78,11 @@ background-color: black;
 color:yellow;
 }
 
-#mainNavigation li {
+#mainNavigation button {
 display:inline-block;
-border: 5px red outset;
+border: 5px black outset;
 }
+
 
 /* #mainNavigationButtons  */
 /* mainNavigation design [end] */
@@ -177,10 +170,10 @@ justify-content:space-between;
 display: grid;
 font-weight:bold;
 grid-template-areas:
-    'intro intro intro'
-    'examples examples examples'
-    'software software software'
-    'animations animations animations'
+    '. intro .'
+    '. examples .'
+    '. software .'
+    '. animations .'
     ;
 }
 
