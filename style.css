@@ -107,6 +107,19 @@ border: 20px inset;
 background-color: black;
 border-color: blue;
 }
+
+.linkForShowcase a:link{
+color: yellow;
+text-decoration: none;
+background-color: black
+
+}
+
+.linkForShowcase a:visited{
+color: yellow;
+text-decoration: none;
+background-color: black
+}
 /*Link stuff [end] */
 
 /*Image designs [start] */
