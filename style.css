@@ -57,7 +57,7 @@ display: grid;
 
 }
 
-#mainNavigation button{
+#mainNavigation li{
 background-color: #000080;
 font-size: 1em;
 border: 20px ridge;
@@ -79,7 +79,7 @@ background-color: black;
 color:yellow;
 }
 
-#mainNavigation button {
+#mainNavigation li {
 display:inline-block;
 border: 5px black outset;
 }
