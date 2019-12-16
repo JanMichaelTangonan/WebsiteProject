@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Alata|Overpass|Rubik|Vollkorn&display=swap');
 
+
+/* ul stuff */
+ul{
+list-style-type: none;
+margin-left: 10px
+}
+/* ul stuff */
 /*Website design [start]*/
 h2{
 padding: 10px 30px 10px 30px;
